@@ -15,6 +15,11 @@ class SomeComponent extends React.Component {
             // this.props.navigation.push('Next Screen');
         });
     }
+    
+    componentDidUpdate(prevProps, prevState) {
+        // Previous SomeContext value is prevProps.someValue
+        // New SomeContext value is this.props.someValue
+      }
 
     render() {
         const { someValue, actions: { someAction } } = this.props;
