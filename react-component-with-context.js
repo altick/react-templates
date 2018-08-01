@@ -34,7 +34,7 @@ let styles = StyleSheet.create({
 let SomeComponentWithContext = props => (
     <SomeContext.Consumer>
         {state => (
-            <SomeComponent { ...props } {...state} ></LoginPage>
+            <SomeComponent { ...props } {...state} ></SomeComponent>
         ) }
     </SomeContext.Consumer>
 );
