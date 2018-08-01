@@ -29,4 +29,5 @@ class Provider extends React.Component {
     )
 }
 
-export default { Consumer, Provider };
+let SomeContext = { Consumer, Provider };
+export default SomeContext;
